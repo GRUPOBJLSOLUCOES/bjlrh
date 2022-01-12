@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jan 2022 17:37:46 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>BJL - Gestão RH</title>
+    <!-- Favicon-->
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <!-- Plugins Core Css -->
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <!-- You can choose a theme from css/styles instead of get all themes -->
+    <link href="../assets/css/styles/all-themes.css" rel="stylesheet" />
+</head>
+
+<body class="light">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30">
+                <img class="loading-img-spin" src="../assets/images/loading.png" alt="admin">
+            </div>
+            <p>Carregando...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+    <nav class="navbar" style="background-image: linear-gradient(to right, #434343 0%, black 100%);" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-bs-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="#" onClick="return false;" class="bars"></a>
+                <a class="navbar-brand" href="/">
+                    <img src="../assets/images/logo.png" />
+                      <span style="font-size:16px" class="logo-name">Gestão RH</span> 
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="pull-left">
+                    <li>
+                        <a href="#" onClick="return false;" class="sidemenu-collapse">
+                            <i data-feather="menu"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Full Screen Button -->
+                    <li class="fullscreen">
+                        <a href="javascript:;" class="fullscreen-btn">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </li>
+                    <!-- #END# Full Screen Button -->
+                    <!-- #START# Notifications-->
+                    <li class="dropdown">
+                        <a href="#" onClick="return false;" class="dropdown-toggle" data-bs-toggle="dropdown"
+                            role="button">
+                            <i class="far fa-bell"></i>
+                            <span class="notify"></span>
+                            <span class="heartbeat"></span>
+                        </a>
+                        <ul class="dropdown-menu pullDown">
+                            <li class="header">NOTIFICAÇÕES</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#" onClick="return false;">
+                                            <span class="table-img msg-user">
+                                                <img src="../assets/images/profile.png" alt="">
+                                            </span>
+                                            <span class="menu-info">
+                                                <span class="menu-title">Bem Vindo</span>
+                                                <span class="menu-desc">
+                                                    <i class="material-icons">access_time</i> Agora
+                                                </span>
+                                                <span class="menu-desc">BJL Gestão RH.</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="#" onClick="return false;">VER TODAS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Notifications-->
+                    <li class="dropdown user_profile">
+                        <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="material-icons" style="margin-top:12px;cursor:pointer">person</i>
+                        </div>
+                        <ul class="dropdown-menu pullDown">
+                            <li class="body">
+                                <ul class="user_dw_menu">
+                                    <li>
+                                        <a href="" onClick="return false;">
+                                            <i class="material-icons">person</i>Perfil
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" onClick="return false;">
+                                            <i class="material-icons">help</i>Ajuda
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/logout" onClick="return false;">
+                                            <i class="material-icons">power_settings_new</i>Sair
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Tasks -->
+                    <li class="pull-right">
+                        <a class="js-right-sidebar" data-close="true">
+                            <i class="fas fa-cog"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <div>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+                    <li class="active">
+                        <a class="menu-toggle">
+                            <i data-feather="monitor"></i>
+                            <span>Home</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li class="active">
+                                <a href="/">Dashboard</a>
+                            </li>
+                        </ul>
+                    </li>
+                  
+                     <li>
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="trello"></i>
+                            <span>Departamento Pessoal</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Holerites</a>
+                            </li>
+                             <li>
+                                <a href="#">Ponto</a>
+                            </li>
+                             <li>
+                                <a href="#">Atestados</a>
+                            </li>
+                            <li>
+                                <a href="#">Beneficios</a>
+                            </li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="wind"></i>
+                            <span>Recrutamento e Seleção</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Vagas</a>
+                            </li>
+                             <li>
+                                <a href="#">Processos Seletivos</a>
+                            </li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a class="menu-toggle">
+                            <i data-feather="server"></i>
+                            <span>Departamentos</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/setores">Setores</a>
+                            </li>
+                            <li>
+                                <a href="/equipes">Equipes</a>
+                            </li>
+                            <li>
+                                <a href="#">Colaboradores</a>
+                            </li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a class="menu-toggle">
+                            <i data-feather="settings"></i>
+                            <span>Administração</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/users">Usuários</a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- #Menu -->
+        </aside>
+        <!-- #END# Left Sidebar -->
+        <!-- Right Sidebar -->
+        
+        <!-- #END# Right Sidebar -->
+    </div>
+    <section class="content">
+        <div class="container-fluid" >
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul class="breadcrumb breadcrumb-style ">
+                            <li class="breadcrumb-item">
+                                <h4 class="page-title">Dashboard</h4>
+                            </li>
+                            <li class="breadcrumb-item bcrumb-1">
+                                <a href="/">
+                                    <i class="fas fa-home"></i> Home</a>
+                            </li>
+                            <li class="breadcrumb-item active">Dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-xl-3 col-sm-6">
+                    <div class="card l-bg-purple">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="far fa-window-restore"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Novos Candidados</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                        0
+                                    </h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-blue-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Candidados em Processo</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                        0
+                                    </h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Candidados Aprovados</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                        0
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-orange-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-ban"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Candidados Reprovados</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                        0
+                                    </h2>
+                                </div>             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="row clearfix">
+               
+                <!-- #END# Task Info -->
+                <!-- Browser Usage -->
+                
+                <!-- #END# Browser Usage -->
+            </div>
+            
+        </div>
+
+
+
+
+
+        
+    </section>
+    <script src="../assets/js/app.min.js"></script>
+    <script src="../assets/js/chart.min.js"></script>
+    <!-- Custom Js -->
+    <script src="../assets/js/admin.js"></script>
+    <script src="../assets/js/bundles/echart/echarts.js"></script>
+    <script src="../assets/js/bundles/apexcharts/apexcharts.min.js"></script>
+    <script src="../assets/js/pages/index.js"></script>
+    <script src="../assets/js/pages/todo/todo.js"></script>
+</body>
+
+
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jan 2022 17:38:38 GMT -->
+</html>

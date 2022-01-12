@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jan 2022 17:37:46 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>BJL - Gestão RH</title>
+    <!-- Favicon-->
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <!-- Plugins Core Css -->
+    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <!-- You can choose a theme from css/styles instead of get all themes -->
+    <link href="../assets/css/styles/all-themes.css" rel="stylesheet" />
+</head>
+
+<body class="light">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30">
+                <img class="loading-img-spin" src="../assets/images/loading.png" alt="admin">
+            </div>
+            <p>Carregando...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+    <nav class="navbar" style="background-image: linear-gradient(to right, #434343 0%, black 100%);" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-bs-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="#" onClick="return false;" class="bars"></a>
+                <a class="navbar-brand" href="/">
+                    <img src="../assets/images/logo.png" />
+                      <span style="font-size:16px" class="logo-name">Gestão RH</span> 
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="pull-left">
+                    <li>
+                        <a href="#" onClick="return false;" class="sidemenu-collapse">
+                            <i data-feather="menu"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Full Screen Button -->
+                    <li class="fullscreen">
+                        <a href="javascript:;" class="fullscreen-btn">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </li>
+                    <!-- #END# Full Screen Button -->
+                    <!-- #START# Notifications-->
+                    <li class="dropdown">
+                        <a href="#" onClick="return false;" class="dropdown-toggle" data-bs-toggle="dropdown"
+                            role="button">
+                            <i class="far fa-bell"></i>
+                            <span class="notify"></span>
+                            <span class="heartbeat"></span>
+                        </a>
+                        <ul class="dropdown-menu pullDown">
+                            <li class="header">NOTIFICAÇÕES</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#" onClick="return false;">
+                                            <span class="table-img msg-user">
+                                                <img src="../assets/images/profile.png" alt="">
+                                            </span>
+                                            <span class="menu-info">
+                                                <span class="menu-title">Bem Vindo</span>
+                                                <span class="menu-desc">
+                                                    <i class="material-icons">access_time</i> Agora
+                                                </span>
+                                                <span class="menu-desc">BJL Gestão RH.</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="#" onClick="return false;">VER TODAS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Notifications-->
+                    <li class="dropdown user_profile">
+                        <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                           <i class="material-icons" style="margin-top:12px;cursor:pointer">person</i>
+                        </div>
+                        <ul class="dropdown-menu pullDown">
+                            <li class="body">
+                                <ul class="user_dw_menu">
+                                    <li>
+                                        <a href="#" onClick="return false;">
+                                            <i class="material-icons">person</i>Perfil
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" onClick="return false;">
+                                            <i class="material-icons">help</i>Ajuda
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/logout" onClick="return false;">
+                                            <i class="material-icons">power_settings_new</i>Sair
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Tasks -->
+                    <li class="pull-right">
+                        <a href="#" onClick="return false;" class="js-right-sidebar" data-close="true">
+                            <i class="fas fa-cog"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <div>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+
+                    <li>
+                        <a class="menu-toggle">
+                            <i data-feather="monitor"></i>
+                            <span>Home</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/">Dashboard</a>
+                            </li>
+                        </ul>
+                    </li>
+                   
+                      <li>
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="trello"></i>
+                            <span>Departamento Pessoal</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Holerites</a>
+                            </li>
+                             <li>
+                                <a href="#">Ponto</a>
+                            </li>
+                             <li>
+                                <a href="#">Atestados</a>
+                            </li>
+                            <li>
+                                <a href="#">Beneficios</a>
+                            </li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="wind"></i>
+                            <span>Recrutamento e Seleção</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Vagas</a>
+                            </li>
+                             <li>
+                                <a href="#">Processos Seletivos</a>
+                            </li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="server"></i>
+                            <span>Departamentos</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="/setores">Setores</a>
+                            </li>
+                            <li>
+                                <a href="/equipes">Equipes</a>
+                            </li>
+                            <li>
+                                <a href="#">Colaboradores</a>
+                            </li>
+                        </ul>
+                    </li>
+                <li class="active">
+                        <a class="menu-toggle">
+                            <i data-feather="settings"></i>
+                            <span>Administração</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li  class="active">
+                                <a href="/users">Usuários</a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- #Menu -->
+        </aside>
+        <!-- #END# Left Sidebar -->
+        <!-- Right Sidebar -->
+        
+        <!-- #END# Right Sidebar -->
+    </div>
+   <section class="content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul class="breadcrumb breadcrumb-style ">
+                            <li class="breadcrumb-item">
+                                <h4 class="page-title">Usuários</h4>
+                            </li>
+                            <li class="breadcrumb-item bcrumb-1">
+                                <a href="/">
+                                    <i class="fas fa-home"></i> Home</a>
+                            </li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Usuários</a>
+                            </li>
+                            <li class="breadcrumb-item active">Todos Usuários</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                Usuários
+                            </h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle"
+                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu float-end">
+                                        <li>
+                                            <a type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModalCenter" id="adicionarUsuario">Adicionar Usuário</a>
+                                        </li>
+                                        <li>
+                                            <a >Editar Usuário</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <div class="table-responsive">
+                                <table  id="dataTableUsuarios" class="table table-hover js-basic-example contact_list">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th> Usuário </th>
+                                            <th> Nome </th>
+                                            <th> Email </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #START# Modal Vertically Centered -->
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Adicionar Usuário
+                                                    </h5>
+                                                    <button type="button" class="close" data-bs-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                     <!-- Basic Validation -->
+                                                    <div class="row clearfix">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="card">
+                                                            
+                                                                <div class="body">
+                                                                    <form action="/novousuario" method="post" id="form_validation">
+                                                                        <div class="form-group form-float">
+                                                                            <div class="form-line">
+                                                                                <input type="text" class="form-control" name="username" required>
+                                                                                <label class="form-label">Usuário</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group form-float">
+                                                                            <div class="form-line">
+                                                                                <input type="text" class="form-control" name="nome_completo" required>
+                                                                                <label class="form-label">Nome Completo</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group form-float">
+                                                                            <div class="form-line">
+                                                                                <input type="email" class="form-control" name="email" required>
+                                                                                <label class="form-label">Email</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group form-float">
+                                                                            <div class="form-line">
+                                                                                <input type="password" class="form-control" name="password" required>
+                                                                                <label class="form-label">Senha temporária</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="submit"
+                                                                                class="btn btn-info waves-effect">Salvar</button>
+                                                                            <button type="button" class="btn btn-danger waves-effect"
+                                                                                data-bs-dismiss="modal">Cancelar</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #END# Modal Vertically Centered -->
+        
+    </section>
+
+    
+    <script src="../../assets/js/app.min.js"></script>
+    <!-- Custom Js -->
+    <script src="../../assets/js/admin.js"></script>
+    <script src="../../assets/js/table.min.js"></script>
+    <!-- Custom Js -->
+    <script src="../../assets/js/pages/tables/jquery-datatable.js"></script>
+    <script src="../../assets/js/tables/UserTable.js"></script>
+     <script src="../../assets/js/bundles/jquery-steps/jquery.steps.min.js"></script>
+    <script src="../../assets/js/pages/forms/form-wizard.js"></script>
+</body>
+
+
+
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jan 2022 17:38:38 GMT -->
+</html>
