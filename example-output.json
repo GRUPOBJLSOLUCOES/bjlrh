@@ -1,0 +1,1511 @@
+{
+	"meta": {
+		"info": {
+			"PDFFormatVersion": "1.7",
+			"IsLinearized": false,
+			"IsAcroFormPresent": false,
+			"IsXFAPresent": false,
+			"IsCollectionPresent": false,
+			"Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+			"ModDate": "D:20220120182620Z",
+			"Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+			"CreationDate": "D:20220120182620Z"
+		},
+		"metadata": null,
+		"contentDispositionFilename": null,
+		"contentLength": null
+	},
+	"pages": [
+		{
+			"pageInfo": {
+				"num": 1,
+				"scale": 1,
+				"rotation": 0,
+				"offsetX": 0,
+				"offsetY": 0,
+				"width": 612,
+				"height": 792
+			},
+			"links": [],
+			"content": [
+				{
+					"x": 308.18,
+					"y": 21.110000000000014,
+					"str": "Demonstrativo de Pagamento de Salário",
+					"dir": "ltr",
+					"width": 137.32000000000002,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 21.860000000000014,
+					"str": "0801-IVAN BITES DE CASTRO E ADVOGADOS ASSOCIADOS",
+					"dir": "ltr",
+					"width": 228.46400000000006,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 394.94,
+					"y": 33.10000000000002,
+					"str": "01/2022",
+					"dir": "ltr",
+					"width": 26.224,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 453.29,
+					"y": 33.10000000000002,
+					"str": "Mensal",
+					"dir": "ltr",
+					"width": 23.552,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 33.85000000000002,
+					"str": "IVAN BITES DE CASTRO E ADVOGADOS ASSOCIADOS   Goiania - GO",
+					"dir": "ltr",
+					"width": 251.7520000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 8.98,
+					"y": 45.08000000000004,
+					"str": "CNPJ",
+					"dir": "ltr",
+					"width": 18.672,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 61.34,
+					"y": 45.08000000000004,
+					"str": "23.103.757/0002-97",
+					"dir": "ltr",
+					"width": 64.888,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 304.44,
+					"y": 45.08000000000004,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 328.08,
+					"y": 57.07000000000005,
+					"str": "CBO",
+					"dir": "ltr",
+					"width": 16.448,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 372.18,
+					"y": 57.07000000000005,
+					"str": "Empresa",
+					"dir": "ltr",
+					"width": 27.991999999999997,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 432.3,
+					"y": 57.07000000000005,
+					"str": "Local",
+					"dir": "ltr",
+					"width": 18.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 517.5,
+					"y": 57.07000000000005,
+					"str": "Departamento",
+					"dir": "ltr",
+					"width": 45.32000000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 584.91,
+					"y": 57.07000000000005,
+					"str": "FL",
+					"dir": "ltr",
+					"width": 9.336,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 11.97,
+					"y": 57.82000000000005,
+					"str": "Cadastro",
+					"dir": "ltr",
+					"width": 28.44,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 70.31,
+					"y": 57.82000000000005,
+					"str": "Nome do Funcionário",
+					"dir": "ltr",
+					"width": 70.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 11.97,
+					"y": 69.04999999999995,
+					"str": "243",
+					"dir": "ltr",
+					"width": 12,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 70.31,
+					"y": 69.04999999999995,
+					"str": "WILKER PIMENTA DE OLIVEIRA",
+					"dir": "ltr",
+					"width": 129.11999999999998,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 320.83,
+					"y": 69.04999999999995,
+					"str": "420110",
+					"dir": "ltr",
+					"width": 24,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 388.18,
+					"y": 69.04999999999995,
+					"str": "801",
+					"dir": "ltr",
+					"width": 12,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 446.3,
+					"y": 69.04999999999995,
+					"str": "2",
+					"dir": "ltr",
+					"width": 4,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 558.5,
+					"y": 69.04999999999995,
+					"str": "1",
+					"dir": "ltr",
+					"width": 4,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 585.91,
+					"y": 69.04999999999995,
+					"str": "01",
+					"dir": "ltr",
+					"width": 8,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 73.3,
+					"y": 81.02999999999997,
+					"str": "COORDENADOR DE CONBRANÇA",
+					"dir": "ltr",
+					"width": 126.21599999999997,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 315.66,
+					"y": 81.02999999999997,
+					"str": "Data Admissão:",
+					"dir": "ltr",
+					"width": 51.328,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 427.86,
+					"y": 81.02999999999997,
+					"str": "09/03/2020",
+					"dir": "ltr",
+					"width": 36.448,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 8.98,
+					"y": 93.01999999999998,
+					"str": "Ev",
+					"dir": "ltr",
+					"width": 9.336,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 93.01999999999998,
+					"str": "Descrição",
+					"dir": "ltr",
+					"width": 33.32,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 360.19,
+					"y": 93.01999999999998,
+					"str": "Referência",
+					"dir": "ltr",
+					"width": 36.872,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 453.7,
+					"y": 93.01999999999998,
+					"str": "Proventos",
+					"dir": "ltr",
+					"width": 34.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 556.92,
+					"y": 93.01999999999998,
+					"str": "Descontos",
+					"dir": "ltr",
+					"width": 34.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 27.42,
+					"y": 105,
+					"str": "1",
+					"dir": "ltr",
+					"width": 4,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 105,
+					"str": "Horas Normais Diurnas",
+					"dir": "ltr",
+					"width": 75.98400000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 365.46,
+					"y": 105,
+					"str": "30 Dias",
+					"dir": "ltr",
+					"width": 24.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 459.7,
+					"y": 105,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 588.92,
+					"y": 105,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 15.42,
+					"y": 116.99000000000001,
+					"str": "1920",
+					"dir": "ltr",
+					"width": 16,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 116.99000000000001,
+					"str": "IRRF",
+					"dir": "ltr",
+					"width": 17.784,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 363.46,
+					"y": 116.99000000000001,
+					"str": "15,00 %",
+					"dir": "ltr",
+					"width": 26.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 485.7,
+					"y": 116.99000000000001,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 568.92,
+					"y": 116.99000000000001,
+					"str": "150,33",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 15.42,
+					"y": 128.97000000000003,
+					"str": "1950",
+					"dir": "ltr",
+					"width": 16,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 128.97000000000003,
+					"str": "INSS",
+					"dir": "ltr",
+					"width": 17.336,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 363.46,
+					"y": 128.97000000000003,
+					"str": "14,00 %",
+					"dir": "ltr",
+					"width": 26.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 485.7,
+					"y": 128.97000000000003,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 568.92,
+					"y": 128.97000000000003,
+					"str": "375,27",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 141.70000000000005,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 153.69000000000005,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 165.66999999999996,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 177.65999999999997,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 189.64,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 201.62,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 213.61,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 225.59000000000003,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 237.58000000000004,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 249.55999999999995,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 261.53999999999996,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 273.53,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 285.51,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 298.24,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 308.73,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 339.59,
+					"y": 308.73,
+					"str": "Total",
+					"dir": "ltr",
+					"width": 18.224,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 461.19,
+					"y": 308.73,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 567.42,
+					"y": 308.73,
+					"str": "525,60",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 320.71,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 332.7,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 442.19,
+					"y": 332.7,
+					"str": "Total Líquido",
+					"dir": "ltr",
+					"width": 47.352,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 561.42,
+					"y": 332.7,
+					"str": "3.217,22",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 56.74,
+					"y": 346.18,
+					"str": "Salário Base",
+					"dir": "ltr",
+					"width": 42.448,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 154.46,
+					"y": 346.18,
+					"str": "Sal Cont INSS",
+					"dir": "ltr",
+					"width": 49.34400000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 261.16,
+					"y": 346.18,
+					"str": "Bas Cálc FGTS",
+					"dir": "ltr",
+					"width": 52.895999999999994,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 359.44,
+					"y": 346.18,
+					"str": "FGTS Mês",
+					"dir": "ltr",
+					"width": 37.112,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 440.18,
+					"y": 346.18,
+					"str": "Bas Cálc IRRF",
+					"dir": "ltr",
+					"width": 51.552,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 524.49,
+					"y": 346.18,
+					"str": "Faixa IRRF",
+					"dir": "ltr",
+					"width": 40.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 575.42,
+					"y": 346.18,
+					"str": "Dep",
+					"dir": "ltr",
+					"width": 13.776,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 374.44,
+					"y": 356.67,
+					"str": "299,42",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 464.18,
+					"y": 356.67,
+					"str": "3.367,55",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 547.49,
+					"y": 357.42,
+					"str": "15,00",
+					"dir": "ltr",
+					"width": 18,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 70.74,
+					"y": 358.16,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 175.46,
+					"y": 358.16,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 287.66,
+					"y": 358.16,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 581.42,
+					"y": 358.16,
+					"str": "00",
+					"dir": "ltr",
+					"width": 8,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 8.98,
+					"y": 382.13,
+					"str": "Recebi em: ____/____/____                Assinatura:_________________________",
+					"dir": "ltr",
+					"width": 259.1039999999999,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 308.18,
+					"y": 416.59,
+					"str": "Demonstrativo de Pagamento de Salário",
+					"dir": "ltr",
+					"width": 137.32000000000002,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 417.34,
+					"str": "0801-IVAN BITES DE CASTRO E ADVOGADOS ASSOCIADOS",
+					"dir": "ltr",
+					"width": 228.46400000000006,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 394.94,
+					"y": 428.57,
+					"str": "01/2022",
+					"dir": "ltr",
+					"width": 26.224,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 453.29,
+					"y": 428.57,
+					"str": "Mensal",
+					"dir": "ltr",
+					"width": 23.552,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 429.32,
+					"str": "IVAN BITES DE CASTRO E ADVOGADOS ASSOCIADOS   Goiania - GO",
+					"dir": "ltr",
+					"width": 251.7520000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 8.98,
+					"y": 440.55,
+					"str": "CNPJ",
+					"dir": "ltr",
+					"width": 18.672,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 61.34,
+					"y": 440.55,
+					"str": "23.103.757/0002-97",
+					"dir": "ltr",
+					"width": 64.888,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 304.44,
+					"y": 440.55,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 328.08,
+					"y": 452.54,
+					"str": "CBO",
+					"dir": "ltr",
+					"width": 16.448,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 372.18,
+					"y": 452.54,
+					"str": "Empresa",
+					"dir": "ltr",
+					"width": 27.991999999999997,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 432.3,
+					"y": 452.54,
+					"str": "Local",
+					"dir": "ltr",
+					"width": 18.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 517.5,
+					"y": 452.54,
+					"str": "Departamento",
+					"dir": "ltr",
+					"width": 45.32000000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 584.91,
+					"y": 452.54,
+					"str": "FL",
+					"dir": "ltr",
+					"width": 9.336,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 11.97,
+					"y": 453.29,
+					"str": "Cadastro",
+					"dir": "ltr",
+					"width": 28.44,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 70.31,
+					"y": 453.29,
+					"str": "Nome do Funcionário",
+					"dir": "ltr",
+					"width": 70.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 11.97,
+					"y": 464.52,
+					"str": "243",
+					"dir": "ltr",
+					"width": 12,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 70.31,
+					"y": 464.52,
+					"str": "WILKER PIMENTA DE OLIVEIRA",
+					"dir": "ltr",
+					"width": 129.11999999999998,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 320.83,
+					"y": 464.52,
+					"str": "420110",
+					"dir": "ltr",
+					"width": 24,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 388.18,
+					"y": 464.52,
+					"str": "801",
+					"dir": "ltr",
+					"width": 12,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 446.3,
+					"y": 464.52,
+					"str": "2",
+					"dir": "ltr",
+					"width": 4,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 558.5,
+					"y": 464.52,
+					"str": "1",
+					"dir": "ltr",
+					"width": 4,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 585.91,
+					"y": 464.52,
+					"str": "01",
+					"dir": "ltr",
+					"width": 8,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 73.3,
+					"y": 476.51,
+					"str": "COORDENADOR DE CONBRANÇA",
+					"dir": "ltr",
+					"width": 126.21599999999997,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 315.66,
+					"y": 476.51,
+					"str": "Data Admissão:",
+					"dir": "ltr",
+					"width": 51.328,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 427.86,
+					"y": 476.51,
+					"str": "09/03/2020",
+					"dir": "ltr",
+					"width": 36.448,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 8.98,
+					"y": 488.49,
+					"str": "Ev",
+					"dir": "ltr",
+					"width": 9.336,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 488.49,
+					"str": "Descrição",
+					"dir": "ltr",
+					"width": 33.32,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 360.19,
+					"y": 488.49,
+					"str": "Referência",
+					"dir": "ltr",
+					"width": 36.872,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 453.7,
+					"y": 488.49,
+					"str": "Proventos",
+					"dir": "ltr",
+					"width": 34.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 556.92,
+					"y": 488.49,
+					"str": "Descontos",
+					"dir": "ltr",
+					"width": 34.216,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 27.42,
+					"y": 500.47,
+					"str": "1",
+					"dir": "ltr",
+					"width": 4,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 500.47,
+					"str": "Horas Normais Diurnas",
+					"dir": "ltr",
+					"width": 75.98400000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 365.46,
+					"y": 500.47,
+					"str": "30 Dias",
+					"dir": "ltr",
+					"width": 24.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 459.7,
+					"y": 500.47,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 588.92,
+					"y": 500.47,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 15.42,
+					"y": 512.46,
+					"str": "1920",
+					"dir": "ltr",
+					"width": 16,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 512.46,
+					"str": "IRRF",
+					"dir": "ltr",
+					"width": 17.784,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 363.46,
+					"y": 512.46,
+					"str": "15,00 %",
+					"dir": "ltr",
+					"width": 26.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 485.7,
+					"y": 512.46,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 568.92,
+					"y": 512.46,
+					"str": "150,33",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 15.42,
+					"y": 524.44,
+					"str": "1950",
+					"dir": "ltr",
+					"width": 16,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 38.9,
+					"y": 524.44,
+					"str": "INSS",
+					"dir": "ltr",
+					"width": 17.336,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 363.46,
+					"y": 524.44,
+					"str": "14,00 %",
+					"dir": "ltr",
+					"width": 26.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 485.7,
+					"y": 524.44,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 568.92,
+					"y": 524.44,
+					"str": "375,27",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 537.1800000000001,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 549.16,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 561.14,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 573.13,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 585.11,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 597.1,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 609.08,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 621.06,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 633.05,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 645.03,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 657.02,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 669,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 680.98,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 693.72,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 704.2,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 339.59,
+					"y": 704.2,
+					"str": "Total",
+					"dir": "ltr",
+					"width": 18.224,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 461.19,
+					"y": 704.2,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 567.42,
+					"y": 704.2,
+					"str": "525,60",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 716.19,
+					"str": "",
+					"dir": "ltr",
+					"width": 0,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 7.48,
+					"y": 728.17,
+					"str": " ",
+					"dir": "ltr",
+					"width": 2,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 442.19,
+					"y": 728.17,
+					"str": "Total Líquido",
+					"dir": "ltr",
+					"width": 47.352,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 561.42,
+					"y": 728.17,
+					"str": "3.217,22",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 56.74,
+					"y": 741.65,
+					"str": "Salário Base",
+					"dir": "ltr",
+					"width": 42.448,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 154.46,
+					"y": 741.65,
+					"str": "Sal Cont INSS",
+					"dir": "ltr",
+					"width": 49.34400000000001,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 261.16,
+					"y": 741.65,
+					"str": "Bas Cálc FGTS",
+					"dir": "ltr",
+					"width": 52.895999999999994,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 359.44,
+					"y": 741.65,
+					"str": "FGTS Mês",
+					"dir": "ltr",
+					"width": 37.112,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 440.18,
+					"y": 741.65,
+					"str": "Bas Cálc IRRF",
+					"dir": "ltr",
+					"width": 51.552,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 524.49,
+					"y": 741.65,
+					"str": "Faixa IRRF",
+					"dir": "ltr",
+					"width": 40.664,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 575.42,
+					"y": 741.65,
+					"str": "Dep",
+					"dir": "ltr",
+					"width": 13.776,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 374.44,
+					"y": 752.14,
+					"str": "299,42",
+					"dir": "ltr",
+					"width": 22,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 464.18,
+					"y": 752.14,
+					"str": "3.367,55",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 547.49,
+					"y": 752.89,
+					"str": "15,00",
+					"dir": "ltr",
+					"width": 18,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 70.74,
+					"y": 753.64,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 175.46,
+					"y": 753.64,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 287.66,
+					"y": 753.64,
+					"str": "3.742,82",
+					"dir": "ltr",
+					"width": 28,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 581.42,
+					"y": 753.64,
+					"str": "00",
+					"dir": "ltr",
+					"width": 8,
+					"height": 8,
+					"fontName": "Times"
+				},
+				{
+					"x": 8.98,
+					"y": 777.61,
+					"str": "Recebi em: ____/____/____                Assinatura:_________________________",
+					"dir": "ltr",
+					"width": 259.1039999999999,
+					"height": 8,
+					"fontName": "Times"
+				}
+			]
+		}
+	],
+	"filename": "C:\\Users\\filipe.borelli\\Desktop\\DEVELOPER\\bjlrh\\src\\tmp\\parsefiles\\file-1.pdf"
+}

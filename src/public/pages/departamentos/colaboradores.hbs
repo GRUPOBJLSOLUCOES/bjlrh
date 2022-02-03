@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 
@@ -8,13 +8,17 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>BJL - Gestão RH</title>
     <!-- Favicon-->
+     <!-- Multi Select Css -->
+    <link href="../../assets/js/bundles/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.css" rel="stylesheet" />
+    <link href="../../assets/js/bundles/multiselect/css/multi-select.css" rel="stylesheet">
     <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
     <!-- Plugins Core Css -->
-    <link href="../assets/css/app.min.css" rel="stylesheet">
+    <link href="../../assets/css/app.min.css" rel="stylesheet">
+     <link href="../../assets/css/form.min.css" rel="stylesheet">
     <!-- Custom Css -->
-    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../../assets/css/style.css" rel="stylesheet" />
     <!-- You can choose a theme from css/styles instead of get all themes -->
-    <link href="../assets/css/styles/all-themes.css" rel="stylesheet" />
+    <link href="../../assets/css/styles/all-themes.css" rel="stylesheet" />
 </head>
 
 <body class="light">
@@ -185,30 +189,30 @@
                             </li>
                         </ul>
                     </li>
-                     <li>
+                     <li  class="active">
                         <a href="#" onClick="return false;" class="menu-toggle">
                             <i data-feather="server"></i>
                             <span>Departamentos</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="/setores">Setores</a>
+                                <a  href="/setores">Setores</a>
                             </li>
                             <li>
                                 <a href="/equipes">Equipes</a>
                             </li>
                             <li>
-                                <a href="#">Colaboradores</a>
+                                <a class="active" href="/colaboradores">Colaboradores</a>
                             </li>
                         </ul>
                     </li>
-                <li class="active">
+                <li>
                         <a class="menu-toggle">
                             <i data-feather="settings"></i>
                             <span>Administração</span>
                         </a>
                         <ul class="ml-menu">
-                            <li  class="active">
+                            <li  >
                                 <a href="/users">Usuários</a>
                             </li>
                            
@@ -230,16 +234,16 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Usuários</h4>
+                                <h4 class="page-title">Colaboradores</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
                                 <a href="/">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
                             <li class="breadcrumb-item bcrumb-2">
-                                <a href="#" onClick="return false;">Usuários</a>
+                                <a href="#" onClick="return false;">Departamentos</a>
                             </li>
-                            <li class="breadcrumb-item active">Todos Usuários</li>
+                            <li class="breadcrumb-item active">Colaboradores</li>
                         </ul>
                     </div>
                 </div>
@@ -249,7 +253,7 @@
                     <div class="card">
                         <div class="header">
                             <h2>
-                                Usuários
+                                Colaboradores
                             </h2>
                             <ul class="header-dropdown m-r--5">
                                 <li class="dropdown">
@@ -258,13 +262,13 @@
                                         aria-expanded="false">
                                         <i class="material-icons">more_vert</i>
                                     </a>
-                                    <ul class="dropdown-menu float-end">
+                                    <ul class="dropdown-menu float-end" style="width:200px">
                                         <li>
                                             <a type="button" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModalCenter" id="adicionarUsuario">Adicionar Usuário</a>
+                                        data-bs-target="#exampleModalCenter" id="adicionarColaborador">Adicionar Colaborador</a>
                                         </li>
                                         <li>
-                                            <a >Editar Usuário</a>
+                                            <a >Editar Colaborador</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -276,9 +280,14 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th> Usuário </th>
-                                            <th> Nome </th>
+                                            <th> Matricula </th>
+                                            <th> Nome Completo </th>
+                                            <th> CPF </th>
                                             <th> Email </th>
+                                            <th> Telefone </th>
+                                            <th> Equipe </th>
+                                            <th> Gestor </th>
+
                                         </tr>
                                     </thead>
                                 </table>
@@ -292,10 +301,10 @@
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
                                         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Adicionar Usuário
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Adicionar Colaborador
                                                     </h5>
                                                     <button type="button" class="close" data-bs-dismiss="modal"
                                                         aria-label="Close">
@@ -309,31 +318,60 @@
                                                             <div class="card">
                                                             
                                                                 <div class="body">
-                                                                    <form action="/novousuario" method="post" id="form_validation">
-                                                                        <div class="form-group form-float">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" name="username" required>
-                                                                                <label class="form-label">Usuário</label>
-                                                                            </div>
-                                                                        </div>
+                                                                    <form action="/novocolaborador" method="post" id="form_validation">
                                                                         <div class="form-group form-float">
                                                                             <div class="form-line">
                                                                                 <input type="text" class="form-control" name="nome_completo" required>
                                                                                 <label class="form-label">Nome Completo</label>
                                                                             </div>
                                                                         </div>
+
                                                                         <div class="form-group form-float">
                                                                             <div class="form-line">
-                                                                                <input type="email" class="form-control" name="email" required>
-                                                                                <label class="form-label">Email</label>
+                                                                                <input type="text" class="form-control" name="matricula" required>
+                                                                                <label class="form-label">Matricula</label>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="form-group form-float">
-                                                                            <div class="form-line">
-                                                                                <input type="password" class="form-control" name="password" required>
-                                                                                <label class="form-label">Senha temporária</label>
+
+                                                                        
+                                                                        <hr style="opacity:10%">
+                                                                           <div class="form-group form-float">
+                                                                                <div class="form-line">
+                                                                                    <input type="text" class="form-control" name="cpf" required>
+                                                                                    <label class="form-label">CPF</label>
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
+                                                                            <hr style="opacity:10%">
+                                                                           <div class="form-group form-float">
+                                                                                <div class="form-line">
+                                                                                    <input type="email" class="form-control" name="email" required>
+                                                                                    <label class="form-label">Email</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <hr style="opacity:10%">
+                                                                           <div class="form-group form-float">
+                                                                                <div class="form-line">
+                                                                                    <input type="number" class="form-control" name="telefone" required>
+                                                                                    <label class="form-label">Telefone</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                            <hr style="opacity:10%">
+                                                                            <h6 style="font-weight:normal;color:#aaa">Equipe</h6>
+                                                                             <div class="form-group default-select select2Style">
+                                                                                <select class='form-control' placeholder="setor" name='id_equipe' id='equipe_select' required>
+
+                                                                                
+                                                                                </select>
+                                                                            </div>
+                                                                            <hr style="opacity:10%">
+                                                                            <h6 style="font-weight:normal;color:#aaa">Gestor</h6>
+                                                                             <div class="form-group default-select select2Style">
+                                                                                <select class='form-control' placeholder="setor" name='id_gestor' id='gestor_select' required>
+                                                                                    
+                                                                                         
+                                                                                </select>
+                                                                            </div>
                                                                         <div class="modal-footer">
                                                                             <button type="submit"
                                                                                 class="btn btn-info waves-effect">Salvar</button>
@@ -361,12 +399,20 @@
     <!-- Custom Js -->
     <script src="../../assets/js/admin.js"></script>
     <script src="../../assets/js/table.min.js"></script>
+    <script src="../../assets/js/form.min.js"></script>
     <!-- Custom Js -->
     <script src="../../assets/js/pages/tables/jquery-datatable.js"></script>
-    <script src="../../assets/js/tables/UserTable.js"></script>
-     <script src="../../assets/js/bundles/jquery-steps/jquery.steps.min.js"></script>
+
+    <script src="../../assets/js/tables/ColaboradorTable.js"></script>
+
+
+    <script src="../../assets/js/bundles/jquery-steps/jquery.steps.min.js"></script>
     <script src="../../assets/js/pages/forms/form-wizard.js"></script>
+    <script src="../../assets/js/bundles/multiselect/js/jquery.multi-select.js"></script>
+    <script src="../../assets/js/bundles/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js"></script>
+    <script src="../../assets/js/pages/forms/advanced-form-elements.js"></script>
 </body>
+
 
 
 

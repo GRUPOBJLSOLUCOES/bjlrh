@@ -11,8 +11,22 @@ import fs from 'fs'
 import passport from 'passport'
 import localStrategy from 'passport-local'
 import { router } from './routes/router'
+import socketio from 'socket.io'
 import http from 'https'
+import moment from 'moment'
+import multer from 'multer'
+
+
+const storage = multer.diskStorage({
+    destination: path.join('src','tmp'),
+    filename: function(req,file,cb){
+        cb(null, `holerite-${moment().format('DDMMYYYY')}${file.mimetype === 'application/pdf'? '.pdf': ''}`)
+    }
+})
+
+const upload = multer({ storage: storage })
 export const app = express()
+
 
 app.engine('hbs', hbs({ extname: '.hbs' }))
 app.set('view engine', 'hbs')
@@ -26,6 +40,10 @@ app.use(cors({ origin: '*' }))
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 app.use(router)
+
+app.post('/uploadholerite', upload.single('file'), (req, res) => {
+    res.status(200).json({message: 'Uploaded file successfully'})
+  })
 
 passport.serializeUser(async function (user, done) {
     done(null, user.id)
@@ -44,15 +62,19 @@ passport.deserializeUser(async function (id, done) {
 passport.use(
     new localStrategy(async function (username, password, done) {
         const name = username.toLowerCase()
-        console.log(username, password)
         try {
             const user = await Users.findOne({ where: { username: name } })
             const UsersList = JSON.parse(JSON.stringify(user))
-            if (!UsersList) return done(null, false)
+            if (!UsersList) {
+                return done(null, false)
+            }
             const isValid = bcrypt.compareSync(password, UsersList.password)
-            if (!isValid) return done(null, false)
+            if (!isValid){
+                return done(null, false)
+            } 
             return done(null, user)
         } catch (e) {
+           
             return done(e, false)
         }
     })
@@ -77,6 +99,7 @@ app.get('/login', isLoggedOut, (req, res) => {
     res.render('index', response)
 })
 
+
 // ? Routes 
 app.get('/', isLoggedIn, (req, res) => {
     res.render('pages/dashboard', { title: 'BJL RH - Home', name: req.user.username.toUpperCase(), permission: req.user.id_permission })
@@ -98,6 +121,18 @@ app.get('/equipes', isLoggedIn, (req, res) => {
     res.render('pages/departamentos/equipes', { title: 'BJL RH - Equipes', name: req.user.username.toUpperCase(), permission: req.user.id_permission })
 })
 
+// ? Colaboradores 
+app.get('/colaboradores', isLoggedIn, (req, res) => {
+    res.render('pages/departamentos/colaboradores', { title: 'BJL RH - Colaboradores', name: req.user.username.toUpperCase(), permission: req.user.id_permission })
+})
+
+
+// ? Holerites 
+app.get('/holerites', isLoggedIn, (req, res) => {
+    res.render('pages/dp/holerites', { title: 'BJL RH - Holerites', name: req.user.username.toUpperCase(), permission: req.user.id_permission })
+})
+
+
 
 
 app.post('/login', passport.authenticate('local', { successRedirect: '/', failureRedirect: '/login?error=true' }))
@@ -117,3 +152,10 @@ const options = {
 const server = http.createServer(options, app).listen(port, url, function () {
     console.log('Express server listening on port ' + port)
 })
+export const io = socketio(server, {
+    cors: {
+        origin: '*',
+        methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    },
+})
+
